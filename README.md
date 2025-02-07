@@ -7,4 +7,4 @@ Web3 Game Development DAO
 
  Parental Advisory* white collar crime emulation. 
 
-So $Fly 🦋, the rest Larve! 🚀🌕
+So $Fly 🦋, the rest Larvae! 🚀🌕
