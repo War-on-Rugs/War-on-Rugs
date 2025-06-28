@@ -1,26 +1,24 @@
-FEED THE PEPE!LehmanAgreementBootstrappingPool_BPT: $⨎₤¥! usd/weth/wbtc/meme vault. buy usd +4 sell erc20= 13+%apy /-1/2% loop -5/6%apr. 
+FEED THE PEPE!LehmanAgreementBootstrappingPool_: $⨎₤¥! usd/weth/wbtc/meme vault. buy usd +4 sell erc20= 13+%apy /-1/2% loop -5/6%apr. 
 
 WhiteSandsDao -crypto platform “Pursuing the acquisitions of funds” positive apy Delta neutral liquidity pools Stable borrow rate Blue chip offerings*
-
-Base Exchange: btc/eth/usd dapp
-- low volatility of high price sales through bond mechanisms 
-100% apy bond (.05% daily) 
-Inverse Bonds selling twa-amm through strategy for lowest slippage 
-
 $⨎₤¥ one quadrillion two hundred thirty-four trillion five hundred sixty-seven billion eight hundred ninety million tokens… 
 erc20= aave/bal/comp/crv/pepe/vxs/uni/ƒ₤¥ +weth/wbtc= Btc/cbBtc+/LBtc/wBtc/tBtc \ eth+/weth/wsteth/ezeth/reth/cbeth/ethx...   
 U$D= +usdc -pyusd +usdt -gusd -crvusd -gho -dai +usds -usd1 =“1:$1”  
 “$⨎₤¥” -Uniswap (Pairs): Provide liquidity for $/Erc20 pairs to support longs onto ethereum 
 
-Airfield: DAO-
+Base Exchange:- low volatility of high price sales through bond mechanisms 
+100% apy bond (.05% daily) 
+Inverse Bonds selling twa-amm through strategy for lowest slippage 
 
-Silo - yield aggregator short - usdc->erc-20 long 4x+ leverage with liquidations wbtc lbtc for btc Long - usd on aave/comp while maintaining optimal liquidity% on compound 
+Airfield: DAO- CLI to upgrade contracts for token teams 
 
-Mess Hall- liquidity pool farming links [Uniswap: erc-20s/U$D] [Balancer: usdc heavy on base] [Curve: stable pools] (3 vaults 3 lps 40/30/30)
+Silo - yield aggregator
+
+Mess Hall- liquidity pool farming links
 
 Barracks- account Metrics 
 
-Barrier-  superBridge layer0 burn mint function wrapped from bnb to eth with bnb pol bridge OP stack infrastructure for low fee + off chain liquidity 
+Barrier- layer0 bridge OP stack infrastructure for low fee + off chain liquidity 
 
 Armory- infrastructure dev & support discord/git 
 
@@ -61,7 +59,7 @@ Total fee: $20,200,000 / 0.04950_% apr
 
 CompoundV3 is an EVM compatible protocol that enables supplying of crypto assets as collateral in order to borrow the base asset. Accounts can also earn interest by supplying the base asset to the protocol. The initial deployment is on EthereumVirtualMachine and the base asset is Aave yield bearing tokens. Please join the #development room in the Compound community Discord server as well as the forums at comp.xyz; Compound Labs and members of the community will provide assistance with building an application on top of CompoundV3. 
 
-LehmanAgreementBootstrappingPool_BPT:
+LehmanAgreementBootstrappingPool_:
 Mainnet -chain
 Contract	Address		
 caUSDCv3	
@@ -92,5 +90,3 @@ Protocol Contracts
 This is the main proxy contract for interacting with the market. The address is fixed and independent from future upgrades to the market. It is an OpenZeppelin TransparentUpgradeableProxy contract. Supply collateral, Borrow USDC. In addition to supplying, borrowing, and wrapping, the bulker contract can also transfer collateral within the protocol and claim rewards. Following developer guides and code repositories serve as resources for community members building with Compound. They detail the protocol deployment process, construction of new features, and code examples for implementing external apps that depend on CompoundV3 as infrastructure.
 
 bridge between assets seamlessly with background liquidity being backed by assets across chains settled over epochs with L2 zeroknowledge+optimistic+ect..
-
-
