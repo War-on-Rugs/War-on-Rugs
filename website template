@@ -6,7 +6,7 @@ The front-end (what users interact with). The back-end (what users don’t see) 
 *Decentralized compute* — Compute resources provide processing power that applications rely on to carry out computational tasks. Currently, most of the web’s compute is provided by centrally owned providers like AmazonWebServices. Decentralized compute is a shift towards community-owned networks, in which compute resources are distributed in a permissionless manner at low-cost. Companies have emerged to provide peer-to-peer compute resources that are highly-performant and optimized for smart contracts and blockchain applications.
 *Decentralized storage* — Storing every piece of data associated with a given web3 app directly on blockchain nodes is costly. Rather than storing data on a centralized database, web3 developers can use peer-to-peer data storage protocols like IPFS.
 *Oracles* — For a typical Ethereum application, the blockchain stores transaction history and “state” (balances, smart contracts, and other variables). It can’t, however, natively store and interact with data from external sources — i.e. transaction history from other blockchains or “real world” data like the weather in San Francisco. That’s where oracles like Chainlink come in, connecting blockchains to on-chain and off-chain data sources.
-*Interoperability* — many different blockchains exist but few have the ability to exchange value and make use of information cross-chain. Interoperability protocols like LayerZero* provide SDKs and APis for developers to build apps that are portable and can communicate with different blockchains.
+*Interoperability* — many different blockchains exist but few have the ability to exchange value and make use of information cross-chain. Interoperability protocols like LayerZero provide SDKs and APis for developers to build apps that are portable and can communicate with different blockchains.
 "Developer tools" Atop the infrastructure primitives that allow applications to interact with blockchain networks are tools that allow developers to more seamlessly interact with the above-named primitives
 _
  The original structure of the Lehman Formula is a 5-4-3-2-1 ladder, as follows:
@@ -25,7 +25,8 @@ Today and to keep up with inflation, investment bankers often seek some multiple
 $1B Raise (for tokenized bank acquisition):
 First $4M: $100,000 + $80,000 + $60,000 + $40,000 = $280,000
 Remaining $996M: 2% = $19,920,000
-Total fee: $20,200,000 / 0.04950_% apr 
+Total fee: $20,200,000 / 2.02%
+_
 
 *Air gapped vaults provide bond holders assurances with proper security measures.*
 _
@@ -47,21 +48,20 @@ Governor
 Timelock
 AaveV3USD
 AAveDebt 
-uniV2lp 
-erc20
+uniV2-lp 
+*erc20*
 Protocol Contracts
 "caUSDCv3"
 
 This is the main proxy contract for interacting with the market. The address is fixed and independent from future upgrades to the market. It is an OpenZeppelin TransparentUpgradeableProxy contract. In addition to swaps and wrapping, the bulker contract can also transfer collateral within the protocol and claim rewards. Following developer guides and code repositories serve as resources for community members building with Compound. They detail the protocol deployment process, construction of new features, and code examples for implementing external apps that depend on CompoundV3 as infrastructure.
 
+_
 FEED THE PEPE! “LehmanAgreementBootstrappingPool_”: $⨎₤¥  vault.
  buy usd sell erc20= 13+%apy /-1/2% loop -5/6%apr. 
 
-$⨎₤¥ between assets seamlessly with background liquidity being backed by assets across chains settled over epochs with L2 zeroknowledge+optimistic+ect..
-
 WhiteSandsDao -crypto platform “Pursuing the acquisitions of funds” positive apy Delta neutral liquidity pools Stable borrow rate Blue chip offerings*
 $⨎₤¥ one quadrillion two hundred thirty-four trillion five hundred sixty-seven billion eight hundred ninety million tokens… 
-erc20= aave/bal/comp/crv/pepe/vxs/uni/ƒ₤¥
+erc20= aave/bal/bnb/comp/crv/pepe/vxs/uni/ƒ₤¥
 Btc/cbBtc+/LBtc/wBtc/tBtc… 
 Eth+/weth/wsteth/ezeth/reth/cbeth/ethx...   
 U$D= +usdc -pyusd +usdt -gusd -crvusd -gho -dai +usds -usd1 =“1:$1”  
@@ -85,3 +85,5 @@ Armory- infrastructure dev & support discord/git
 
 Latrine- liquidator Bot arbitrage ui
 
+$⨎₤¥ between assets seamlessly with background liquidity being backed by assets across chains settled over epochs with L2 zeroknowledge+optimistic+ect..
+_
