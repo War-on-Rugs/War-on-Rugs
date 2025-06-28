@@ -55,33 +55,7 @@ Protocol Contracts
 This is the main proxy contract for interacting with the market. The address is fixed and independent from future upgrades to the market. It is an OpenZeppelin TransparentUpgradeableProxy contract. In addition to swaps and wrapping, the bulker contract can also transfer collateral within the protocol and claim rewards. Following developer guides and code repositories serve as resources for community members building with Compound. They detail the protocol deployment process, construction of new features, and code examples for implementing external apps that depend on CompoundV3 as infrastructure.
 
 FEED THE PEPE! “LehmanAgreementBootstrappingPool_”: $⨎₤¥  vault.
- buy usd sell erc20= 13+%apy /-1/2% loop -5/6%apr. 
-
-WhiteSandsDao -crypto platform “Pursuing the acquisitions of funds” positive apy Delta neutral liquidity pools Stable borrow rate Blue chip offerings*
-$⨎₤¥ one quadrillion two hundred thirty-four trillion five hundred sixty-seven billion eight hundred ninety million tokens… 
-erc20= aave/bal/bnb/comp/crv/pepe/vxs/uni/ƒ₤¥
-Btc/cbBtc+/LBtc/wBtc/tBtc… 
-Eth+/weth/wsteth/ezeth/reth/cbeth/ethx...   
-U$D= +usdc -pyusd +usdt -gusd -crvusd -gho -dai +usds -usd1 =“1:$1”  
-“$⨎₤¥” -Uniswap (Pairs): Provide liquidity for $/Erc20 pairs to support longs onto ethereum 
-
-Base Exchange:- low volatility of high price sales through bond mechanisms 
-Inverse Bonds selling twa-amm through strategy for lowest slippage 
-100% apy bond (.05% daily) ?
-
-Airfield: DAO- CLI to upgrade contracts for token teams 
-
-Silo - yield aggregator
-
-Mess Hall- liquidity pool farming links
-
-Barracks- account Metrics 
-
-Barrier- layer0 bridge OP stack infrastructure for low fee + off chain liquidity 
-
-Armory- infrastructure dev & support discord/git 
-
-Latrine- liquidator Bot arbitrage ui
+swap erc20= 13+-%apy loop 
 
 univ4sdk:
 swap 
@@ -97,7 +71,7 @@ burn
 {before,after}RemoveLiquidity
 {before,after}Swap
 {before,after}Donate
-_
+
 src/
 ----interfaces/
     | IPoolManager.sol
@@ -113,7 +87,7 @@ test/
 ----libraries/
     | Position.t.sol
     | Pool.t.sol
-_
+
 import {IPoolManager} from 'v4-core/contracts/interfaces/IPoolManager.sol';
 import {IUnlockCallback} from 'v4-core/contracts/interfaces/callback/IUnlockCallback.sol';
 
