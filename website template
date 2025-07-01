@@ -88,25 +88,4 @@ test/
     | Position.t.sol
     | Pool.t.sol
 
-import {IPoolManager} from 'v4-core/contracts/interfaces/IPoolManager.sol';
-import {IUnlockCallback} from 'v4-core/contracts/interfaces/callback/IUnlockCallback.sol';
-
-contract MyContract is IUnlockCallback {
-    IPoolManager poolManager;
-
-    function doSomethingWithPools() {
-        // this function will call `unlockCallback` below
-        poolManager.unlock(...);
-    }
-
-    function unlockCallback(bytes calldata data) external returns (bytes memory) {
-        // disallow arbitrary caller
-        if (msg.sender != address(poolManager) revert Unauthorized();
-        // perform pool actions
-        poolManager.swap(...)
-    }
-}
-
-error Unauthorized();
-
 $⨎₤¥ between assets seamlessly with background liquidity being backed by assets across chains settled over epochs with L2 zeroknowledge+optimistic+ect..
