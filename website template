@@ -54,36 +54,4 @@ Protocol Contracts
 
 This is the main proxy contract for interacting with the market. The address is fixed and independent from future upgrades to the market. It is an OpenZeppelin TransparentUpgradeableProxy contract. In addition to swaps and wrapping, the bulker contract can also transfer collateral within the protocol and claim rewards. Following developer guides and code repositories serve as resources for community members building with Compound. They detail the protocol deployment process, construction of new features, and code examples for implementing external apps that depend on CompoundV3 as infrastructure.
 
-FEED THE PEPE! “LehmanAgreementBootstrappingPool_”: $⨎₤¥  vault.
-univ4sdk:
-swap 
-modifyLiquidity
-donate
-take
-settle
-mint
-burn
-
-{before,after}Initialize
-{before,after}AddLiquidity
-{before,after}RemoveLiquidity
-{before,after}Swap
-{before,after}Donate
-
-src/
-----interfaces/
-    | IPoolManager.sol
-    | ...
-----libraries/
-    | Position.sol
-    | Pool.sol
-    | ...
-----test
-----PoolManager.sol
-...
-test/
-----libraries/
-    | Position.t.sol
-    | Pool.t.sol
-
-$⨎₤¥ between assets seamlessly with background liquidity being backed by assets across chains.
+FEED THE PEPE! “LehmanAgreementBootstrappingPool_”: $⨎₤¥  vault w/univ4sdk: $⨎₤¥ between assets seamlessly with background liquidity being backed by assets across chains.
