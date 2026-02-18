@@ -1,4 +1,4 @@
-Web3 Game Development DAO
+Web3 Development DAO
 - 👀 I’m interested in ... web3 gaming smart contracts
 - 🌱 I’m currently learning ... solidity
 - 💞️ I’m looking to collaborate on ... cryptography and coding
